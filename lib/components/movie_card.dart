@@ -16,7 +16,9 @@ class MovieCard extends StatelessWidget {
         child: ExpansionTile(
       title: Text(movie.title),
       subtitle: Text(movie.director),
-      leading: CircleAvatar(child: Text(movie.title[0])),
+      leading: CircleAvatar(
+        backgroundImage: NetworkImage(movie.images[0]),
+      ),
       children: [
         Container(
             alignment: Alignment.center,
