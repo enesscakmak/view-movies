@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
     final movieData = Provider.of<MovieProvider>(context);
     return Scaffold(
         appBar: AppBar(
-          title: Text('Movies'),
+          title: const Text('Movies'),
         ),
         body: Center(
           child: ListView.builder(
