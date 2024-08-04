@@ -22,10 +22,10 @@ class MovieDetails extends StatelessWidget {
           Text('Movie Posters',
               style: Theme.of(context).textTheme.headlineSmall),
           SizedBox(
-            height: 200,
+            height: 695,
             width: double.infinity,
             child: ListView.builder(
-                scrollDirection: Axis.horizontal,
+                scrollDirection: Axis.vertical,
                 itemCount: movie.images.length,
                 itemBuilder: (context, index) {
                   return Card(
