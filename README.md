@@ -1,16 +1,18 @@
-# movie_app
+# Movie Lister
 
-A new Flutter project.
+A Movie Lister project using for learning Flutter that let's you ⤵  
 
-## Getting Started
+  - See a list of movies and TV Shows
+  - See detailed information about movies and TV Shows
+  - You can check photos about the show in details page
+    
 
-This project is a starting point for a Flutter application.
+<p align="center">
+<img width="30%" height="40%" src="https://github.com/user-attachments/assets/9fd31808-6865-4924-bc22-f1d360deb2cd">
+             
 
-A few resources to get you started if this is your first Flutter project:
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+    Made with the help of "Flutter & Dart: Complete App Development Course" by Paulo Dichone
